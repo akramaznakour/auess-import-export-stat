@@ -1,0 +1,19 @@
+{
+    "name": "auessaouira/auessaouira-plugin",
+    "description": "Awesome starter plugin example",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Auessaouira",
+            "email": "Auessaouira@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "./app"}
+    }
+}
